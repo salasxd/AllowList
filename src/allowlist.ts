@@ -86,7 +86,7 @@ async function formOptions(net: NetworkIdentifier) {
         let json = JSON.parse(data);
         for(var user of json){
             if(user.name.toLowerCase() != net.getActor()?.getName().toLowerCase()){
-                form.addButton(new FormButton(user.name),user.name.toLowerCase());
+                form.addButton(new FormButton(user.name,"url", "https://raw.githubusercontent.com/salasxd/allowlist/main/user.png"),user.name.toLowerCase());
             }
         }
     }
