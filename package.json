@@ -1,0 +1,21 @@
+{
+  "name": "@bdsx/allowlist",
+  "version": "1.0.0",
+  "description": "Controla quien entra a tu servidor",
+  "main": "index.js",
+  "keywords": [],
+  "author": "SalasCris",
+  "license": "ISC",
+  "bdsxPlugin": true,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prepare": "tsc || exit 0"
+  },
+  "devDependencies": {
+    "bdsx": "file:../bdsx"
+  },
+  "dependencies": {
+    "unix-time": "~1.0.1"
+  }
+}
