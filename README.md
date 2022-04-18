@@ -2,4 +2,4 @@
 ###### by SalasCris Beta
 
 ### Comandos:
-#### /allowlist
+#### /allow
